@@ -1,0 +1,7 @@
+WHAT IS DOM ?
+
+ans -  The dom or document object model is a programming interface for web document it represent the structure of a web page as a tree of objects 
+
+WHY WE USE DOM ? 
+
+ans -  
