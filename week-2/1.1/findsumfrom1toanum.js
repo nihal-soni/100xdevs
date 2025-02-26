@@ -6,22 +6,22 @@
        
 // ONE WAY OF DOING THIS 
 
-//  function sum(n) {
-//     return n * ( n + 1)/2 ;
-//  }
+ function sum(n) {
+    return n * ( n + 1)/2 ;
+ }
 
-// const ans = sum(10)
-//  console.log(ans);
+const ans = sum(10)
+ console.log(ans);
 
 // SECOND WAY OF DOING THIS 
 
-function sum(n) {
-    let ans = 0;
+function sum2(n) {
+    let ans2 = 0;
     for(let i = 1; 1 <= n; i++) {
-        ans = ans + i
+        ans2 = ans2 + i
     }
-    return ans;
+    return ans2;
 }
 
-const ans = sum(10);
-console.log(ans);
+const ans2 = sum2(10);
+console.log(ans2);
