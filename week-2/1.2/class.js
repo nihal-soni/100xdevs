@@ -77,3 +77,10 @@ map.set('age',20);
 
 console.log(map.get('name'));
 console.log(map.get('age'));
+
+const map2 = new Map();
+map2.set('firstName','Nihal');
+map2.set('lastName', 'Soni');
+
+console.log(map2.get('firstName'));
+console.log(map2.get('lastName'))
