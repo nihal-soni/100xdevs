@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>learningAxios</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  </head>
+  <body>
+    Linkedin
+    <div id="posts"></div>
+
+    <script>
+      async function getRecentPost() {
+        const response = await axios.get("https://jsonplaceholder.typicode.com/posts/3");
+        document.getElementById("posts").innerHTML = response.data.title;
+        // console.log(response.data);
+      }
+      getRecentPost();
+    </script>
+  </body>
+</html>
